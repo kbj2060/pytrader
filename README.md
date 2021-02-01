@@ -1,13 +1,13 @@
-키움 Open API + 를 이용한 시스템트레이딩
+Kiwoom Open API System Trading
 
 ![pytrader](pic/pytrader.PNG)
 
-## 개발환경
+## Environments
  - Anaconda3-4.3.0.1 32bit (Python 3.7, PyQt5.6)
  - Windows 10
- - 세부적인 패키지는 requirements.txt 에 기록
+ - Packages written in requirements.txt
  
-## 사용법
- - 장 개시 전 매수할 을 data/Buy.json에, 매도할 종목을 data/Sell.json에 기록.
- - 장 개시 후 pytrader.py를 실행하면 Buy.json에 있는 종목을 매수, Sell.json에 있는 종목을 매도.
- - 자동주문 및 수동주문 가능.
+## Usage
+* Write buy list in data/Buy.json file and sell list in data/Sell.json before market begins.
+* Execute pytrader.py after market begins, pytrader will buy and sell your stocks.
+* Plan to auto trading with machine learning.
